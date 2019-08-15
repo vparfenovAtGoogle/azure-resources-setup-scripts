@@ -9,3 +9,4 @@ npm install uuid --save
 nodejs bin/www
 git clone https://github.com/vparfenovAtGoogle/TestGitHubAPIs.git
 git pull https://github.com/vparfenovAtGoogle/TestGitHubAPIs.git
+curl http://localhost:3000
