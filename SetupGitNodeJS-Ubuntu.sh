@@ -32,3 +32,16 @@ sudo service docker restart
 # Use from another terminal
 docker ps
 docker images
+# Create Docker image
+touch Dockerfile
+vi Dockerfile
+# see Dockerfile
+touch .dockerignore
+# see .dockerignore
+# Build Docker image
+docker build -t vparfenov/node-test-app .
+docker images
+# Run the image in the detached (-d) mode 
+docker run -p 49160:3000 -d vparfenov/node-test-app
+docker ps
+curl -i http://localhost:49160
