@@ -10,3 +10,4 @@ npm install Express -S
 # Generate tsconfig.json
 tsc --init
 # Generate tslint.json
+./node_modules/.bin/tslint --init
