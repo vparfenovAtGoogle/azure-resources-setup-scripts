@@ -3,3 +3,4 @@ npm install express --save
 npx express-generator --hbs --force
 npm install
 npm install multer
+npm install uuid
